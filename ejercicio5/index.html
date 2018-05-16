@@ -3,17 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ejercicio5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
 	<style>
+
+		*{
+			padding: 0;
+			margin:0;
+		}
+
+		header{
+			position: relative;
+			background-color: green;
+			margin:0 auto;
+			color: #fff;
+			text-align: center;
+    		padding: 100px;
+		}
+		.titulo{
+			position: absolute;
+			width: 30%;
+			background-color: #000;
+			height: 200px;
+		}
+	  	h1{
+	  		font-family: sans-serif;
+	  		font-weight: 100;
+	  		font-size:40px;
+	  	}
+			
+		section{
+			position: relative;
+			background-color: #ffffff;
+			margin:10px auto;
+			color: #000;
+			text-align: center;
+    		padding: 100px;
+		}
+	  	.columna{
+	  		float: left;
+	  		width: 33%;
+	  		height: 150px;
+	  		background-color: yellow;
+	  		box-sizing: border-box;
+	  		padding: 10px;	
+	  	}
+		.columna div {
+			background-color:green;
+		}
+
 		
 	</style>
 </head>
 <body>
 	<header>
-		<h1>hola este es un ejercicio en grilla</h1>
+		<h1 class"titulo">HOLA ESTE ES UN EJERCICIO EN GRILLA<h1>
 	</header>
-	<div class="columna">img</div>
-	<div class="columna">img</div>
-	<div class="columna">img</div>
-	
+	<section>
+		<div class="columna">
+			<div>img</div>
+		</div>
+		<div class="columna">
+			<div>img</div>
+		</div>
+		<div class="columna">
+			<div>img</div>
+		</div>
+	</section>
 </body>
 </html>
